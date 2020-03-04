@@ -1,9 +1,10 @@
 import React from 'react';
+import Container from '@material-ui/core/Container';
 
 const JiscBanner = () => {
   return (
     <div class="jiscBanner">
-      <div class="jiscBanner-Container">
+      <Container>
         <div class="jiscBanner-Inner">
 
           <a class="jiscBanner-Brand" href="https://www.jisc.ac.uk/" title="Go to the Jisc homepage">
@@ -16,7 +17,7 @@ const JiscBanner = () => {
           </p>
 
         </div>
-      </div>
+      </Container>
     </div>
   );
 }
