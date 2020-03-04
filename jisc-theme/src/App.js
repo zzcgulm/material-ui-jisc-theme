@@ -1,9 +1,13 @@
 import React from 'react';
+import JiscBanner from './components/JiscBanner'
 
 function App() {
   return (
-    <div>
-    </div>
+    <header>
+
+      <JiscBanner />
+
+    </header>
   );
 }
 
